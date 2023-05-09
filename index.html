@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/logo.svg" type="image/xml-svg" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="area-entrada">
+        <header>
+          <img src="./src/imagenes/logo2.svg" alt="logo2" />
+        </header>
+        <textarea
+          class="entrada"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <div class="area-advertencia">
+          <img
+            src="./src/imagenes/advertencia.svg"
+            alt="advertencia"
+            class="advertencia"
+          />
+          <p class="text-advertencia">Solo minusculas y sin acento</p>
+        </div>
+        <div class="area-botones">
+          <button class="boton boton-entrada" id="boton1">Encriptar</button>
+          <button class="boton boton-entrada" id="boton2">Desencriptar</button>
+        </div>
+      </div>
+      <div class="area-respuesta"></div>
+    </div>
+    <script src="src/index.js" type="module"></script>
+    <footer>
+      <p class="datos">Desarrollado por José Pablo Santillana</p>
+        <a href="https://github.com/PabloSan1997/encriptadorProyecto">
+          <img src="./src/imagenes/logoGithub.svg" alt="" class="direc"/>
+        </a>
+    </footer>
+  </body>
+</html>
+

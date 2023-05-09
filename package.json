@@ -1,0 +1,36 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "Proyecto del reto 1 de oracle one",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite --port 3000 --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Pablo Santillana",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSan1997/encriptadorProyecto.git"
+  },
+  "keywords": [
+    "oracle-one",
+    "reto",
+    "encriptado",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "bugs": {
+    "url": "https://github.com/PabloSan1997/encriptadorProyecto/issues"
+  },
+  "homepage": "https://github.com/PabloSan1997/encriptadorProyecto#readme"
+}
